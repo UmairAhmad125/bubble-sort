@@ -3,23 +3,24 @@
 # Bubble_sort
 
 def bubble_sort(arra)
-    length = arra.length
-    (0..arra.length).each do
-      (0..length - 2).each do |j|
-        next unless arra[j] > arra[j + 1]
-  
-        temp = arra[j]
-        arra[j] = arra[j + 1]
-        arra[j + 1] = temp
-      end
-    end
-    arra
-  end
+  length = arra.length
+  (0..arra.length).each do
+    (0..length - 2).each do |j|
+      next unless arra[j] > arra[j + 1]
 
-  def bubble_sort_by(arr)
+      temp = arra[j]
+      arra[j] = arra[j + 1]
+      arra[j + 1] = temp
+    end
+  end
+  arra
+end
+
+def bubble_sort_by(arr)
   (0..arr.length).each do
     (0...arr.length - 1).each do |j|
       next unless yield(arr[j], arr[j + 1]).positive?
+
       temp = arr[j]
       arr[j] = arr[j + 1]
       arr[j + 1] = temp
