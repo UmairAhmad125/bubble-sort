@@ -31,7 +31,7 @@ end
 puts "Executing Bubble_Sort_by\n\n"
 puts bubble_sort([3, 4, 6, 1, 8])
 puts "\nRunning Bubble Sort By\n\n"
-result = bubble_sort_by(%w[hi hello holaja hey]) do |left, right|
+result = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 puts result
