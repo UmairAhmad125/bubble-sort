@@ -1,5 +1,5 @@
 # Bubble Sort Algorithm
-In this project we implemented bubble sort algorithm to sort the array of numbers and strings. bubble_sort takes an array of numbers and sort it. bubble_sort_by takes a string array and sort it, in bubble_sort_by we are using yield. Both bubble_sort and bubble_sort_by return a sorted array and they sort the array in ascending order. 
+In this project we implemented bubble sort algorithm to sort the array of numbers and strings. bubble_sort takes an array of numbers and sort it. bubble_sort_by takes a string array and sort it, in bubble_sort_by we are using yield. Both bubble_sort and bubble_sort_by returns a sorted array and they sort the array in ascending order. 
 
 ## Built With
 
